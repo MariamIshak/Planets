@@ -268,7 +268,7 @@ body:has(input#b10:checked):after {
 
 /* IMAGES / THUMBNAILS */
 body:has(input#b1:checked), .thumbnails label[for=b1] {
-	--img:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fscience.nasa.gov%2Fearth%2F&psig=AOvVaw2nkdUd-GM5NwWi5nSImkDt&ust=1701209844331000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDOgNua5YIDFQAAAAAdAAAAABAE) ;
+	--img:url(https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg) ;
 }
 body:has(input#b2:checked), .thumbnails label[for=b2] {
 	--img:url(../images/nasa-JHyiw_dpALk-unsplash.jpg) ;
