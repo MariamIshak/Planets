@@ -185,7 +185,7 @@ body:after {
 	content: "";
 	position: absolute;
 	top: 2vh;
-	color: #0a0505;
+	color: #fff;
 	font-size: 25px;
 	line-height: 35px;
 	transition: all 0.5s ease 0s;
