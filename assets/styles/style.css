@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 
 :root {
-	--img: url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg);
+	--img: url(../images/solar-system.jpg);
 }
 
 html {
@@ -19,7 +19,7 @@ body {
 	justify-content: center;
 	background-size: cover;
 	background-position: center center;
-	background-image: var(--img, url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg));
+	background-image: var(--img, url(../images/solar-system.jpg));
 	transition: background 0.5s ease 0s;
 	font-family: 'Londrina Solid', cursive;
 }
@@ -41,7 +41,7 @@ body:before {
 	justify-content: center;
 	background-size: cover;
 	background-position: center center;
-	background-image: var(--img, url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg));
+	background-image: var(--img, url(../images/solar-system.jpg));
 	transition: background 0.5s ease 0s;
 	max-width: 400px;
 	max-height: 400px;
