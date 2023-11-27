@@ -43,9 +43,9 @@ body:before {
 	background-position: center center;
 	background-image: var(--img, url(https://cdn.josetxu.com/img/gp-fisura-saqueadores.jpg));
 	transition: background 0.5s ease 0s;
-	max-width: 500px;
-	max-height: 500px;
-	box-shadow: 0 0 0vmin 1vmin #fff, 0 0 10vmin 5vmin #000;
+	max-width: 400px;
+	max-height: 400px;
+	box-shadow: 0 0 0vmin 0.5vmin #fff, 0 0 10vmin 5vmin #000;
 	border-radius: 2px;
 	z-index: 0;
 	background-color: #fff;
@@ -182,12 +182,12 @@ label:before {
 
 /* TITLES  */
 body:after {
-	content: "Saqueadores de Conventos (6b+) \a RISCO DE LOS SAQUEADORES";
+	content: "";
 	position: absolute;
 	top: 2vh;
 	color: #fff;
-	font-size: 35px;
-	line-height: 45px;
+	font-size: 25px;
+	line-height: 35px;
 	transition: all 0.5s ease 0s;
 	text-shadow: 0px 1px 0 #000000d9;
 	white-space: pre-wrap;
@@ -195,48 +195,50 @@ body:after {
 	width: 100vw;
 	padding: 1vmin;
 	background: #ffffff05;
-	font-weight: 300;
+	font-weight: 100;
 }
 
 body:has(input#b1:checked):after {
-	content: "Saqueadores de Conventos (6b+) \a RISCO DE LOS SAQUEADORES";
+	content: ' العالم يتكون من عدد غير محدود من المجرات و تقع المجموعة الشمسية بالتحديد في مجرة درب التبانة, تتكون المجموعة الشمسية من الشمس وجميع ما يَدور حولها من أجرام بما في ذلك الأرض والكواكب الأخرى.';
 }
 
 body:has(input#b2:checked):after {
-	content: "Lucas (A2/V+) \a EL HUESO";
+	content: 'الشمس\a هي اكبر نجم في المجموعة الشمسية ';
 }
 
 body:has(input#b3:checked):after {
-	content: "El blues de los ojos bonitos (6a+) \a TRES CORONAS";
+	content: "كوكب عطارد  \aأقرب كوكب للشمس";
 }
 
 body:has(input#b4:checked):after {
-	content: "Perros Salvajes (A4) \a EL GRAN MOLONDRIO";
+	content: "كوكب الزهرة \a وهذا يعني أنه يشبه الأرض في تركيبه الصخري كما يشبه في الحجم والكتلة. وغالبا ما يوصف بتوأم الأرض ,لكن الظروف على سطح الزهرة مختلفة بشكل كبير عما هي عنه من على سطح الأرض.";
 }
 
 body:has(input#b5:checked):after {
-	content: "To\00F1 in (7b) \a ROC\00D3 DROMO";
+	content: "كوكب الأرض \a الكوكب الذي نعيش عليه";
 }
 
 body:has(input#b6:checked):after {
-	content: "El Clan de los Osos (A2) \a EL PANDEMONIUM";
+	content: "كوكب المريخ \aاخر كواكب المجموعة الداخلية";
 }
 
 body:has(input#b7:checked):after {
-	content: "Oscar y Raul (V+/6a) \a HUECO DE LAS HOCES";
+	content: "كوكب المشترى \aاكبر كوكب في المجموعة الشمسية";
 }
 
 body:has(input#b8:checked):after {
-	content: "Me pesa hasta el aire (A2/?) \a RISCO DE LA DEHESILLA";
+	content: "كوكب زحل \a  سادس كوكب بُعدًا عن الشمس وثاني أكبر كوكب في المجموعة الشمسية بعد كوكب المشتري، وهو كوكب عملاق غازي يتكون من الهيدروجين وليس له سطح صُلْب ، أكثر ما يميز كوكب زُحل حلقاته البارزة ";
 }
 
 body:has(input#b9:checked):after {
-	content: "Diedro (6b) \a RISCO DE LA MEZQUITA";
+	content: "كوكب أورانوس \a سابع الكواكب بعدًا عن الشمس، وثالث أضخم كواكب المجموعة الشمسية , لم يتم تمييزه من قبل الحضارات القديمة على أنه كوكب رغم أنه مرئي بالعين المجردة، نظرًا لبهوته وبطء دورانه ";
 }
 
 body:has(input#b10:checked):after {
-	content: "Biafra (6a+/A2) \a EL HUESO";
+	content: "كوكب نيبتون \a ثامن كواكب المجموعة الشمسية من حيث البعد عن الشمس، كما أنه أصغر الكواكب الغازية العملاقة، ولبعده الشديد عن الشمس، فهو كوكب مظلم وجليدي إذ تصل درجة حرارته إلى °255- درجة مئوية";
 }
+
+
 
 
 
@@ -266,44 +268,44 @@ body:has(input#b10:checked):after {
 
 /* IMAGES / THUMBNAILS */
 body:has(input#b1:checked), .thumbnails label[for=b1] {
+	--img:url(../images/solar-system.jpg) ;
+}
+body:has(input#b2:checked), .thumbnails label[for=b2] {
 	--img:url(../images/nasa-JHyiw_dpALk-unsplash.jpg) ;
 }
 
-body:has(input#b2:checked), .thumbnails label[for=b2] {
+body:has(input#b3:checked), .thumbnails label[for=b3] {
 	--img: url(../images/mercury.jpg);
 }
 
-body:has(input#b3:checked), .thumbnails label[for=b3] {
+body:has(input#b4:checked), .thumbnails label[for=b4] {
 	--img: url(../images/venus.jpg);
 }
 
-body:has(input#b4:checked), .thumbnails label[for=b4] {
+body:has(input#b5:checked), .thumbnails label[for=b5] {
 	--img: url(../images/earth.jpg);
 }
 
-body:has(input#b5:checked), .thumbnails label[for=b5] {
+body:has(input#b6:checked), .thumbnails label[for=b6] {
 	--img: url(../images/mars.jpg);
 }
 
-body:has(input#b6:checked), .thumbnails label[for=b6] {
+body:has(input#b7:checked), .thumbnails label[for=b7] {
 	--img: url(../images/jupiter.jpg);
 }
 
-body:has(input#b7:checked), .thumbnails label[for=b7] {
+body:has(input#b8:checked), .thumbnails label[for=b8] {
 	--img: url(../images/saturn.png);
 }
 
-body:has(input#b8:checked), .thumbnails label[for=b8] {
+body:has(input#b9:checked), .thumbnails label[for=b9] {
 	--img: url(../images/uranus.webp);
 }
 
-body:has(input#b9:checked), .thumbnails label[for=b9] {
+body:has(input#b10:checked), .thumbnails label[for=b10] {
 	--img: url(../images/neptun.jpg);
 }
 
-body:has(input#b10:checked), .thumbnails label[for=b10] {
-	--img: url(https://cdn.josetxu.com/img/gp-biafra-hueso.jpg);
-}
 
 .thumbnails label:before { display: none; }
 .thumbnails label:hover { opacity: 1; }
