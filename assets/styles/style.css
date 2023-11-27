@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 
 :root {
-	--img: url(../images/solar-system.jpg);
+	--img: url(https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU);
 }
 
 html {
@@ -19,7 +19,7 @@ body {
 	justify-content: center;
 	background-size: cover;
 	background-position: center center;
-	background-image: var(--img, url(../images/solar-system.jpg));
+	background-image: var(--img, url(https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU));
 	transition: background 0.5s ease 0s;
 	font-family: 'Londrina Solid', cursive;
 }
@@ -41,7 +41,7 @@ body:before {
 	justify-content: center;
 	background-size: cover;
 	background-position: center center;
-	background-image: var(--img, url(../images/solar-system.jpg));
+	background-image: var(--img, url(https://unsplash.com/photos/black-hole-galaxy-illustration-Oze6U2m1oYU));
 	transition: background 0.5s ease 0s;
 	max-width: 400px;
 	max-height: 400px;
